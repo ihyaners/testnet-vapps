@@ -1,4 +1,4 @@
-# vApp Submission: GameQuest
+# vApp Submission: QuestVerse
 
 ## Verification
 ```yaml
@@ -11,38 +11,39 @@ timestamp: "2025-08-27"
 - **Name**: ihyaners
 - **GitHub**: @ihyaners
 - **Discord**: fajlis#2574
-- **Experience**: Web3 & game developer, familiar with Unity and smart contract integration
+- **Experience**: Web3 & game developer with experience in Unity, React, and smart contract-based game logic.
 
 ## Project
 
 ### Name & Category
-- **Project**: GameQuest
+- **Project**: QuestVerse
 - **Category**: gaming
 
 ### Description
-GameQuest is a blockchain-based gaming platform where players can complete quests, earn NFT rewards, and trade in-game assets securely. It combines fun gameplay with verifiable asset ownership.
+QuestVerse is a Web3 questing platform where players dive into story-driven missions, unlock NFT-based achievements, and trade rare digital items. Every quest completion grants verifiable rewards, ensuring that progression and ownership are transparent and secure.
 
 ### SL Integration  
-GameQuest uses Soundness Layer (SL) to verify ownership and transfer of in-game NFTs and assets. SL ensures that all rewards and trades are backed by verifiable proofs, preventing fraud and double-spending.
+QuestVerse uses Soundness Layer (SL) to validate asset ownership and mission rewards. SL proofs guarantee that every NFT, item upgrade, and trade is authentic—preventing duplication, fraud, or manipulation in the in-game economy.
 
 ## Technical
 
 ### Architecture
-- Frontend: React-based web/game client
-- Backend: Node.js server handling game logic and SL proof requests
-- Blockchain: SL + Ethereum testnet for NFT minting and trades
-- Storage: IPFS for in-game asset metadata
+- Frontend: React + WebGL (immersive browser gameplay)
+- Backend: Node.js + Express (quest logic, matchmaking, SL proof requests)
+- Blockchain: Ethereum testnet + SL for NFT minting and trades
+- Storage: IPFS for assets, quest data, and player inventories
 
 ### Stack
 - **Frontend**: React + Three.js
 - **Backend**: Node.js
-- **Blockchain**: SL + Ethereum testnet for NFT minting and trades
-- **Storage**: IPFS for in-game asset metadata
+- **Blockchain**: SL + Ethereum testnet
+- **Storage**: IPFS
 
 ### Features
-1. NFT-based quests and rewards
-2. Proof-verified asset ownership via SL
-3. Secure in-game marketplace for trading assets
+- Story-based quests → Complete missions to unlock NFTs and progress in the game.
+- Verified asset ownership → SL ensures that every reward is genuine.
+- Marketplace → Trade skins, weapons, or artifacts with other players.
+- Progression system → Items can be upgraded and evolve as the player advances.
 
 ## Timeline
 
@@ -53,14 +54,15 @@ GameQuest uses Soundness Layer (SL) to verify ownership and transfer of in-game 
 
 ### MVP (4-8 weeks)  
 - [ ] Full quest system
-- [ ] Marketplace with verified trades
-- [ ] User testing
+- [ ] Marketplace for NFT trading & upgrades
+- [ ] User testing with community feedback
 
 ## Innovation
-GameQuest combines gamification with verifiable asset ownership using SL, making blockchain gaming fun, secure, and trustless. Players can confidently trade and earn NFTs without risk of fraud.
+QuestVerse stands out by combining interactive gameplay with verifiable ownership. Instead of static NFTs, players earn evolving rewards that grow with their achievements. With SL verification, every progression step is trustworthy, making the experience both fun and secure.
 
 ## Contact
 Twitter: @Sadiki41
+Email: berlyanaseha@gmail.com
 
 **Checklist before submitting:**
 - [ ] All fields completed
